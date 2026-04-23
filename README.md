@@ -1,3 +1,8 @@
+About
+My Screen is a super simple, web-based tool that lets you record your screen and camera right in your browser with zero downloads or accounts needed. It’s all about speed and ease, handling everything on your own device so you can start recording in seconds. It’s a lightweight, open-source way for anyone to grab a recording and share it instantly .
+
+
+
 Features
 Screen Recording — Capture screen, window, or browser tab
 Camera Overlay — Picture-in-picture webcam with draggable positioning
