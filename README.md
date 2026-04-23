@@ -18,6 +18,7 @@
   | Build	Turborepo, pnpm |
   | Backend	Express.js (for MP4 conversion)  |  
 
+---
 
 
 ## Features
@@ -31,6 +32,7 @@
 |Keyboard Shortcuts| — Ctrl+P (pause), Ctrl+M (mic), Ctrl+C (camera), Ctrl+S (screen)|
 |No Time Limits |— Record as long as you need|
 
+---
 
 ## Browser Support
 |Browser |	Status|
@@ -40,6 +42,23 @@
 |Firefox|	✅ Supported|
 |Safari	|✅ Supported|
 |Mobile	|❌ Not supported (getDisplayMedia limitation|)
+
+---
+
+## Project Structure
+
+```
+My-Screen/
+├── apps/
+│   ├── web/          # Next.js frontend
+│   └── api/          # Express.js backend (MP4 conversion)
+├── packages/
+│   └── shared/       # Shared utilities
+└── turbo.json        # Turborepo config
+
+```
+
+---
 
 ## Available Scripts
 |Command |	Description |
