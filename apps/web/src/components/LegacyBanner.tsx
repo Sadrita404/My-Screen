@@ -34,17 +34,17 @@ export default function LegacyBanner() {
 
   return (
     <div className="fixed bottom-[72px] right-6 z-40 animate-fade-in">
-      <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden w-[280px] border border-gray-200">
+      <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden w-[300px] border border-gray-200">
         <button
           onClick={handleDismiss}
           className="absolute top-2 right-2 z-10 p-1.5 bg-white/90 hover:bg-white text-gray-500 hover:text-gray-700 rounded-full shadow-sm border border-gray-200 transition-all"
           aria-label="Close legacy banner"
         >
-          <X size={14} strokeWidth={2.5} />
+          <X size={16} strokeWidth={2.5} />
         </button>
 
         <div className="block group">
-          <div className="relative w-full h-[150px] bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700 overflow-hidden">
+          <div className="relative w-full h-[160px] bg-gradient-to-br from-pink-500 via-purple-600 to-indigo-700 overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={SCREENSHOT_URL}
@@ -54,10 +54,10 @@ export default function LegacyBanner() {
             />
           </div>
 
-          <div className="p-4">
+          <div className="p-5">
             <button
               onClick={handleVisitLegacy}
-              className="w-full bg-black text-white font-normal py-2 rounded-lg transition-colors hover:bg-zinc-900"
+              className="w-full bg-black text-white font-semibold text-lg py-3 rounded-xl transition-all hover:bg-zinc-900 active:scale-[0.98]"
             >
               Visit Old Site (v1)
             </button>
