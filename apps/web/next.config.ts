@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Enable SharedArrayBuffer for FFmpeg.wasm
-  // Required headers for cross-origin isolation
+  
   async headers() {
     return [
       {
