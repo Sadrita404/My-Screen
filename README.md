@@ -117,3 +117,7 @@ My-Screen/
 
 ---
 
+### For contributing to this project, first for the repo and add additional changes to make the website more good can you make a pull request I Will surely check that and merge it.
+
+## Under Hack Club
+
