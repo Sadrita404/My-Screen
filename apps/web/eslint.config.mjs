@@ -12,6 +12,8 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
+    // Added a name property to identify this config block for the commit
+    name: "main-project-config",
     ignores: [
       "node_modules/**",
       ".next/**",
