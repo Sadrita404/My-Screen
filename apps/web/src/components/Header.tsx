@@ -48,7 +48,7 @@ export default function Header({ showBack = false, backHref = '/' }: HeaderProps
             <Link
               href="/"
               className="group inline-flex items-center gap-2.5 transition-transform"
-              aria-label="My Screen Home"
+              aria-label="My_Screen_Home "
             >
               <ScreenLogo />
             </Link>
