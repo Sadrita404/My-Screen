@@ -288,7 +288,7 @@ export default function EditorPage() {
     return (
         <Suspense fallback={
             <div className="fixed inset-0 bg-white flex items-center justify-center">
-                <div className="text-gray-500">Loading editor...</div>
+                <div className="text-gray-500">Loading Editor...</div>
             </div>
         }>
             <EditorContent />
