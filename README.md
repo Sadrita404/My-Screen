@@ -14,7 +14,7 @@
   |:--|
   | Layer	Technology |
   | Frontend	Next.js 16, React 19, TypeScript|
-  | Styling	Tailwind CSS |
+  | Styling	Tailwind |
   | Build	Turborepo, pnpm |
   | Backend	Express.js (for MP4 conversion)  |  
 
@@ -41,7 +41,7 @@
 |Edge|✅  Supported|
 |Firefox|	✅ Supported|
 |Safari	|✅ Supported|
-|Mobile	|❌ Not supported (getDisplayMedia limitation|)
+|Mobile	|❌ Not supported (getDisplayMedia limitation) |
 
 ---
 
@@ -50,13 +50,17 @@
 ```
 My-Screen/
 ├── apps/
-│   ├── web/          # Next.js frontend
-│   └── api/          # Express.js backend (MP4 conversion)
+│   ├── web/       =
+│   └── api/         
 ├── packages/
-│   └── shared/       # Shared utilities
-└── turbo.json        # Turborepo config
+│   └── shared/       
+└── turbo.json       
 
 ```
+
+---
+
+Ai Use -I have use ai to find out which tech stack I should use for this screen recording purpose and to save the file to the computer.
 
 ---
 
