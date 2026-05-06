@@ -1,4 +1,7 @@
-# My Screen
+<img width="1078" height="154" alt="Screenshot 2026-05-07 at 12 58 58 AM" src="https://github.com/user-attachments/assets/533e144c-8a69-4834-9681-1571b43a023c" />
+
+
+---
 
 |Title | My Screen|
 | :-- | :-- |
@@ -8,6 +11,16 @@
 ## [LIVE URL](https://my-screen-1.netlify.app/)
 
 #### My Screen is a super simple, web-based tool that lets you record your screen and camera right in your browser with zero downloads or accounts needed. It’s all about speed and ease, handling everything on your own device so you can start recording in seconds. It’s a lightweight, open-source way for anyone to grab a recording and share it instantly without any extra fuss.
+
+---
+## Inspo:
+My Inspo was some of the best screen recorder like - Loom , OBS Studio , etc and I take inspo from this apps and list the points I want to add in my own Screen Recorder 
+
+
+## Why I built it:
+The first point is to use such application we need to install it in our computer and we don't really use this application daily , So I built my Screen Recorder in the Web ( No download Required) and the next thing is to record in good quality we need to buy subscription to use those features , So I made my which is open source and free to use and also no - sign up , log in and Ads are therre in the website .
+
+___
 
 ## Tech Used
   |Tech Stack|
